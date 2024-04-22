@@ -1,0 +1,63 @@
+@import "./Mixins";
+@import "./FreeStartButton";
+
+section {
+  display: flex;
+  justify-content: space-between;
+  margin-inline: 10%;
+  margin-top: 100px;
+}
+
+.gradient-text {
+  @include gradient-background(101deg, $color-2, $color-1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h2 {
+  margin: 0;
+  font-size: 14pt;
+}
+
+h1,
+h1 span {
+  margin: 0;
+  font-size: 50pt;
+  font-family: "Parangon 430C", sans-serif;
+  line-height: 45pt;
+}
+
+.hero-content .FreeStartButton {
+  box-shadow: none;
+  color: white;
+  font-size: 1.3rem;
+  padding: 15px inherit;
+  width: 100%;
+  background-clip: padding-box;
+  -webkit-text-fill-color: white;
+  transition: background-color 0.2s ease-in-out,
+    -webkit-text-fill-color 0.2s ease-in-out;
+}
+
+.hero-content .FreeStartButton:hover {
+  background: white;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.oval {
+  position: relative;
+}
+
+.oval::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-5deg);
+  width: 400px;
+  height: 80px;
+  border-radius: 100%;
+  border: 2px solid white;
+  z-index: -1;
+}

@@ -1,0 +1,78 @@
+@import "./variables";
+@import "./mixins";
+@import "../fonts/stylesheet.css";
+@import "./CreditCard";
+@import "./Footer.scss";
+@import "./FooterCard.scss";
+
+* {
+  font-weight: 500;
+  font-family: "Parangon 230C", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #111;
+  background-image: radial-gradient(
+    circle at center,
+    rgba($color-2, 0.2) 5%,
+    #111 30%
+  );
+  color: white;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 12px;
+  margin-right: 12px;
+  @include gradient-fill(135deg, $color-1, $color-2);
+}
+
+.logo-text {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  padding-inline: 10%;
+}
+
+nav {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  width: 100%;
+  justify-content: center;
+}
+
+nav li {
+  margin-right: 20px;
+  opacity: 0.8;
+  transition: opacity 0.2s ease-in-out;
+}
+
+nav li:hover {
+  opacity: 1;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}

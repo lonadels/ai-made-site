@@ -1,0 +1,180 @@
+@font-face {
+    font-family: 'Parangon 130C';
+    src: url('Parangon130C.eot');
+    src: local('Parangon 130C'), local('Parangon130C'),
+        url('Parangon130C.eot?#iefix') format('embedded-opentype'),
+        url('Parangon130C.woff2') format('woff2'),
+        url('Parangon130C.woff') format('woff'),
+        url('Parangon130C.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Parangon 420C';
+    src: url('Parangon420C.eot');
+    src: local('Parangon 420C'), local('Parangon420C'),
+        url('Parangon420C.eot?#iefix') format('embedded-opentype'),
+        url('Parangon420C.woff2') format('woff2'),
+        url('Parangon420C.woff') format('woff'),
+        url('Parangon420C.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Parangon 120C';
+    src: url('Parangon120C.eot');
+    src: local('Parangon 120C'), local('Parangon120C'),
+        url('Parangon120C.eot?#iefix') format('embedded-opentype'),
+        url('Parangon120C.woff2') format('woff2'),
+        url('Parangon120C.woff') format('woff'),
+        url('Parangon120C.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Parangon 410C';
+    src: url('Parangon410C.eot');
+    src: local('Parangon 410C'), local('Parangon410C'),
+        url('Parangon410C.eot?#iefix') format('embedded-opentype'),
+        url('Parangon410C.woff2') format('woff2'),
+        url('Parangon410C.woff') format('woff'),
+        url('Parangon410C.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Parangon 110C';
+    src: url('Parangon110C.eot');
+    src: local('Parangon 110C'), local('Parangon110C'),
+        url('Parangon110C.eot?#iefix') format('embedded-opentype'),
+        url('Parangon110C.woff2') format('woff2'),
+        url('Parangon110C.woff') format('woff'),
+        url('Parangon110C.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Parangon 210C';
+    src: url('Parangon210C.eot');
+    src: local('Parangon 210C'), local('Parangon210C'),
+        url('Parangon210C.eot?#iefix') format('embedded-opentype'),
+        url('Parangon210C.woff2') format('woff2'),
+        url('Parangon210C.woff') format('woff'),
+        url('Parangon210C.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Parangon 320C';
+    src: url('Parangon320C.eot');
+    src: local('Parangon 320C'), local('Parangon320C'),
+        url('Parangon320C.eot?#iefix') format('embedded-opentype'),
+        url('Parangon320C.woff2') format('woff2'),
+        url('Parangon320C.woff') format('woff'),
+        url('Parangon320C.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Parangon 310C';
+    src: url('Parangon310C.eot');
+    src: local('Parangon 310C'), local('Parangon310C'),
+        url('Parangon310C.eot?#iefix') format('embedded-opentype'),
+        url('Parangon310C.woff2') format('woff2'),
+        url('Parangon310C.woff') format('woff'),
+        url('Parangon310C.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Parangon 520C';
+    src: url('Parangon520C.eot');
+    src: local('Parangon 520C'), local('Parangon520C'),
+        url('Parangon520C.eot?#iefix') format('embedded-opentype'),
+        url('Parangon520C.woff2') format('woff2'),
+        url('Parangon520C.woff') format('woff'),
+        url('Parangon520C.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Parangon 330C';
+    src: url('Parangon330C.eot');
+    src: local('Parangon 330C'), local('Parangon330C'),
+        url('Parangon330C.eot?#iefix') format('embedded-opentype'),
+        url('Parangon330C.woff2') format('woff2'),
+        url('Parangon330C.woff') format('woff'),
+        url('Parangon330C.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Parangon 220C';
+    src: url('Parangon220C.eot');
+    src: local('Parangon 220C'), local('Parangon220C'),
+        url('Parangon220C.eot?#iefix') format('embedded-opentype'),
+        url('Parangon220C.woff2') format('woff2'),
+        url('Parangon220C.woff') format('woff'),
+        url('Parangon220C.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Parangon 430C';
+    src: url('Parangon430C.eot');
+    src: local('Parangon 430C'), local('Parangon430C'),
+        url('Parangon430C.eot?#iefix') format('embedded-opentype'),
+        url('Parangon430C.woff2') format('woff2'),
+        url('Parangon430C.woff') format('woff'),
+        url('Parangon430C.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Parangon 230C';
+    src: url('Parangon230C.eot');
+    src: local('Parangon 230C'), local('Parangon230C'),
+        url('Parangon230C.eot?#iefix') format('embedded-opentype'),
+        url('Parangon230C.woff2') format('woff2'),
+        url('Parangon230C.woff') format('woff'),
+        url('Parangon230C.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Parangon 530C';
+    src: url('Parangon530C.eot');
+    src: local('Parangon 530C'), local('Parangon530C'),
+        url('Parangon530C.eot?#iefix') format('embedded-opentype'),
+        url('Parangon530C.woff2') format('woff2'),
+        url('Parangon530C.woff') format('woff'),
+        url('Parangon530C.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Parangon 510C';
+    src: url('Parangon510C.eot');
+    src: local('Parangon 510C'), local('Parangon510C'),
+        url('Parangon510C.eot?#iefix') format('embedded-opentype'),
+        url('Parangon510C.woff2') format('woff2'),
+        url('Parangon510C.woff') format('woff'),
+        url('Parangon510C.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
